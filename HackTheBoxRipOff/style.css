@@ -1,0 +1,203 @@
+body
+{
+ 	background-image: url("BlackBackground.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:960px;
+	margin: 0px;
+}
+#layer2back
+{
+	opacity: 0.97;
+	size: cover;
+}
+ul li a
+{
+	color: white;
+	text-decoration: none;
+	transition: color;
+	transition-duration: 450ms;
+}
+ul li a:hover
+{	color: green;
+}
+
+#navBar ul li
+{
+	display: inline;
+	font-size: 15;
+	padding: 15px;
+}
+ul
+{
+	position: absolute;
+	left: 60%;
+	top: 0%
+}
+#SH
+{
+	font-family: arial;
+	color: red;
+	font-size: 35;
+	position: absolute;
+	left: 35%;
+	top: 60%;
+	letter-spacing: 5.5px;
+	font-weight: lighter;
+	animation: terminalAnimationUser 2s infinite;
+}
+#prompt
+{
+	font-family: arial;
+	color: white;
+	font-size: 35;
+	position: absolute;
+	left: 58.8%;
+	top: 60%;
+	letter-spacing: 5.5px;
+	animation: terminalAnimationPrompt 2s infinite;
+}
+#PTL
+{
+	color: grey;
+	font-family: arial;
+	font-size: 30;
+	position: absolute;
+	left:43%;
+	top: 47%;
+	letter-spacing: 5.5px;
+}
+#HTB
+{
+	color: white;
+	font-family: ubuntu;
+	font-size: 60px;
+	position: absolute;
+	left: 43%;
+	top: 35%;
+	font-weight: normal;
+}
+#individuals
+{
+}
+#individuals a
+{
+	padding: 15px;
+	height: 15px;
+	width: 100px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 13;
+	font-weight: bolder;
+	position: absolute;
+	top: 77%;
+	left: 33%;
+	letter-spacing: 1px;
+	transition: color, border-color;
+	transition-duration: 450ms;
+}
+#individuals a:hover
+{
+	color: green;
+	border-color: green;
+}
+#companiesAndUnis a
+{
+	padding: 15px;
+	border-style: solid;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 13;
+	font-weight: bolder;
+	position: absolute;
+	top: 77%;
+	left: 55%;
+	letter-spacing: 1px;
+	transition: color,border-color;
+	transition-duration: 450ms;
+}
+#companiesAndUnis a:hover
+{
+	color: green;
+	border-color: green;
+}
+#termialText
+{
+	position: relative;
+	top: 10%;
+	left: 20%;
+}
+#terminalText:after
+{
+	color: white;
+	font-size: 35;
+	font-weight: lighter;
+	font-family: ubuntu;
+	position:absolute;
+	content: '';
+	left: 65%;
+	top: 60%;
+	animation: terminalAnimation 2s infinite;
+}
+@keyframes terminalAnimation
+{	0% {content: "|"; left: 65%;}
+	10% {content: "|";left: 65%;}
+	15% {content: "h |";left: 64.5%;}
+	20% {content: "he |";left: 64%;}
+	25% {content: "hel |";left: 63.5%;}
+	30% {content: "hello |";left: 62.5%;}
+	35% {content: "hello w |";left: 61.5%;}
+	40% {content: "hello wo |";left: 61%;}
+	45% {content: "hello wor |";left: 60.5%;}
+	55% {content: "hello world |";left: 59.5%;}
+	60% {content: "hello world ";left: 59.5%;}
+	80% {content: "hello world |";left: 59.5%}
+	85% {content: "hello wo |";left: 61%}
+	90% {content: "hel |";left: 63.5%}
+	100%{content: "|";left:65%}
+}
+@keyframes terminalAnimationUser
+{
+	0% {left: 35%;}
+	10% {left: 35%;}
+	15% {left: 34.5%;}
+	20% {left: 34%;}
+	25% {left: 33.5%;}
+	30% {left: 32.5%;}
+	35% {left: 31.5%;}
+	40% {left: 31%;}
+	45% {left: 30.5%;}
+	55% {left: 29.5%;}
+	60% {left: 29.5%;}
+	80% {left: 29.5%}
+	85% {left: 31%}
+	90% {left: 33.5%}
+	100%{left: 35%}
+}
+@keyframes terminalAnimationPrompt
+{
+
+	0% {left: 58.8%;}
+	10% {left: 58.8%}
+	15% {left: 58.3%;}
+	20% {left: 57.8%;}
+	25% {left: 57.3%;}
+	30% {lefT: 56.3%;}
+	35% {left: 55.3%;}
+	40% {left: 54.8%;}
+	45% {left: 54.3%;}
+	55% {left: 53.3%;}
+	60% {left: 53.3%;}
+	80% {left: 53.3%;}
+	85% {left: 54.8%;}
+	90% {left: 57.3%;}
+	100%{left: 58.8%;}
+
+}
+

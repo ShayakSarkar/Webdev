@@ -1,0 +1,40 @@
+#canvas
+{
+	background: black;
+}
+#text
+{
+	font-size: 16px;
+}
+#welcome
+{
+	position: absolute;
+	font-size: 60;
+	font-family: ubuntu;
+	color: gray;
+	left: 27%;
+	top: 27%;
+}
+#rabbit
+{
+	position: absolute;
+	color: white;
+	top: 40%;
+	left: 27%;
+	font-size: 20;
+	font-family: arial;
+}
+#username
+{
+	position: absolute;
+	color: red;
+	top: 45%;
+	left: 27%;
+	font-size: 20;
+	font-family: ubuntu;
+}
+
+
+
+
+

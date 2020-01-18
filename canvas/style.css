@@ -1,0 +1,9 @@
+canvas
+{
+	border-style: solid;
+	height: 100%;
+	width: 100%;
+	border-width: 1px;
+	border-color: black;
+	background: #01101b;
+}

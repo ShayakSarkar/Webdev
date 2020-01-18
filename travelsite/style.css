@@ -1,0 +1,50 @@
+body
+{
+	background-image: url("LockedRoom.jpg");
+	background-repeat: no-repeat;
+	background-image: 
+	
+}
+#globe
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left:0px;
+	top: 0px;
+
+}
+#parchedPaper
+{
+	position: relative;
+	left: 28%;
+	z-index: 50;
+	height: 500px;
+	width: 30%;
+	filter: blur(2px);
+	
+
+}
+#username
+{
+	position: relative;
+	left: 40%;
+	top: 200px;
+	z-index: 60;
+}
+#password
+{
+	position: relative;
+	left: 40%;
+	top: 200px;
+	z-index: 60
+}
+#submitButton
+{
+	position: relative;
+	left: 40%;
+	top: -150px;
+	z-index: 60;
+}
+	
+
